@@ -6,15 +6,15 @@ public class Main {
         TransformerDirector director = new TransformerDirector(builder);
 
         director.buildTransformer();
-        Transformer autoBot = builder.info();
-        System.out.println(autoBot);
+        Transformer autobot1 = builder.info();
+        System.out.println(autobot1);
 
-//        TransformerBuilder transformerBuilder = new TransformerAutoBot();
-//        TransformerDirector transformerDirector = new TransformerDirector(transformerBuilder);
-//
-//        transformerDirector.buildTransformer();
-//
-//        Transformer transformer = transformerBuilder.info();
-//        System.out.println(transformer);
+        TransformerBuilder builderD = new TransformerDeceptionBot();
+        TransformerDirector directorD = new TransformerDirector(builderD);
+        Transformer decipticon = builderD.info();
+        System.out.println(decipticon);
+        directorD.buildTransformer();
+        decipticon = builderD.info();
+        System.out.println(decipticon);
     }
 }

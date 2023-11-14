@@ -6,12 +6,10 @@ public class TransformerDirector {
     public TransformerDirector(TransformerBuilder transformerBuilder) {
         this.transformerBuilder = transformerBuilder;
     }
-    public void buildTransformer(){
+    void buildTransformer(){
         transformerBuilder.buildName();
         transformerBuilder.buildColor();
-        transformerBuilder.buildIsCar();
-        transformerBuilder.buildIsAirPlane();
-        transformerBuilder.buildIsTank();
+        transformerBuilder.transport();
         transformerBuilder.buildIsAutobot();
     }
 }

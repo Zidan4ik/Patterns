@@ -13,21 +13,9 @@ public class TransformerDeceptionBot implements TransformerBuilder {
     }
 
     @Override
-    public void buildIsAirPlane() {
-        transformer.setTransformationAirplane(true);
+    public void transport() {
+        transformer.setBody(Transport.airplane);
     }
-
-    @Override
-    public void buildIsCar() {
-        transformer.setTransformationCar(false);
-    }
-
-    @Override
-    public void buildIsTank() {
-        transformer.setTransformationTank(false);
-    }
-
-
     @Override
     public void buildIsAutobot() {
         transformer.setAutoBot(false);
