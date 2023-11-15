@@ -7,6 +7,8 @@ public class Main {
 
         director.buildTransformer();
         Transformer autobot1 = builder.info();
+        autobot1.setName("optimus");
+        autobot1.setColor("blue-silver");
         System.out.println(autobot1);
 
         TransformerBuilder builderD = new TransformerDeceptionBot();

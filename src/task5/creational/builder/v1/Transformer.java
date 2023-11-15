@@ -3,10 +3,8 @@ package task5.creational.builder.v1;
 public class Transformer {
     private String name;
     private String color;
-   private Transport body;
+    private Transport body;
     private boolean isAutoBot;
-
-
 
     public void setName(String name) {
         this.name = name;

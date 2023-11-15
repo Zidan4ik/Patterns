@@ -5,12 +5,11 @@ public class TransformerAutoBot implements TransformerBuilder {
 
     @Override
     public void buildName() {
-        transformer.setName("Оптімус");
+        transformer.setName("Autobot");
     }
 
     @Override
     public void buildColor() {
-        transformer.setColor("синій");
     }
 
     @Override
