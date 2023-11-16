@@ -10,7 +10,8 @@ public class Meat implements Dish{
         this.price = price;
         this.time = time;
     }
-
+    @Override
+    public int count(){return 1;}
     @Override
     public void showInfo() {
         System.out.println("Назва блюдо: "+name+", ціна: "+price+", час приготування: "+ time);
