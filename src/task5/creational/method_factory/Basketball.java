@@ -1,4 +1,4 @@
-package task5.creational.factory;
+package task5.creational.method_factory;
 
 public class Basketball implements Ball{
     @Override

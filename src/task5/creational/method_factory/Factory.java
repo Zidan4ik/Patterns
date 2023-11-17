@@ -1,6 +1,7 @@
-package task5.creational.factory;
+package task5.creational.method_factory;
 
-public class FactoryBalls {
+public class Factory implements FactoryBalls {
+    @Override
     public Ball createBall(String ball){
         switch (ball){
             case "basketball": return new Basketball();

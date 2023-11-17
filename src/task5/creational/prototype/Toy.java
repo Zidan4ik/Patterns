@@ -1,9 +1,9 @@
 package task5.creational.prototype;
 
 public class Toy implements Prototype{
-    String name;
-    int count;
-    double price;
+    private String name;
+    private int count;
+    private double price;
 
     public Toy(String name, int count, double price) {
         this.name = name;
@@ -45,8 +45,8 @@ public class Toy implements Prototype{
     }
 
     @Override
-    public Object clone() {
-        Toy toy = new Toy(name,count,price);
-        return toy;
+    public Object clone() throws CloneNotSupportedException {
+        return (Prototype)super.clone();
     }
+
 }

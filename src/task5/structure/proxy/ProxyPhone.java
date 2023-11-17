@@ -1,7 +1,7 @@
 package task5.structure.proxy;
 
 public class ProxyPhone implements Phone{
-    private Phone phone;
+    private Iphone iphone;
     private boolean isAccess;
 
     public ProxyPhone(boolean isAccess) {
@@ -11,10 +11,10 @@ public class ProxyPhone implements Phone{
     @Override
     public void call(String name) {
         if(isAccess){
-            if(phone==null){
-                phone=new Iphone("iphone");
+            if(iphone ==null){
+                iphone =new Iphone("iphone");
             }
-            phone.call(name);
+            iphone.call(name);
         }else{
             System.out.println("Ви не маєте доступу до дзвінків");
         }
@@ -23,10 +23,10 @@ public class ProxyPhone implements Phone{
     @Override
     public void sendMessage(String message, String name) {
         if(isAccess){
-            if(phone==null){
-                phone=new Iphone("iphone");
+            if(iphone ==null){
+                iphone =new Iphone("iphone");
             }
-            phone.sendMessage(message, name);
+            iphone.sendMessage(message, name);
         }else{
             System.out.println("Ви не маєте доступу до надсилань повідомлень");
         }

@@ -11,8 +11,8 @@ public class Main{
         bamblbi.fraction();
         bamblbi.info();
         System.out.println();
-        Transformer decipticon = new TransformerDecepticon(new Medic());
-        decipticon.fraction();
-        decipticon.info();
+        Transformer decepticon = new TransformerDecepticon(new Medic());
+        decepticon.fraction();
+        decepticon.info();
     }
 }

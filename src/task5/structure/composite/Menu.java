@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Menu implements Dish{
-    private int count;
     private List<Dish> dishes = new ArrayList<>();
 
     public void addDish(Dish dish){

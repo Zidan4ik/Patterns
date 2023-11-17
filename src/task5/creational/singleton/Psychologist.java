@@ -2,8 +2,7 @@ package task5.creational.singleton;
 
 public class Psychologist{
     private static Psychologist psychologist;
-    private Psychologist() {
-    }
+
     public static Psychologist getInstance(){
         if(psychologist == null){
             psychologist = new Psychologist();

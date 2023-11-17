@@ -1,4 +1,4 @@
-package task5.creational.builder.v1;
+package task5.creational.builder;
 
 public enum Transport {
     car,airplane,tank
