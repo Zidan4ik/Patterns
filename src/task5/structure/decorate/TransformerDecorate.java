@@ -1,7 +1,7 @@
 package task5.structure.decorate;
 
-abstract class TransformerDecorate implements Transformer {
-    protected Transformer transformer;
+class TransformerDecorate implements Transformer {
+    private Transformer transformer;
 
     public TransformerDecorate(Transformer transformer) {
         this.transformer = transformer;

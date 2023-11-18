@@ -1,6 +1,6 @@
 package task5.structure.facade;
 
-public class Phone {
+public class Phone extends Brightness {
     String name;
     int brightness;
     int battery;

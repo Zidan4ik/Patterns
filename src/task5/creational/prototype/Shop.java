@@ -1,6 +1,6 @@
 package task5.creational.prototype;
 
-public class Shop {
+public class Shop{
     Toy toy;
 
     public Shop(Toy toy) {
@@ -10,7 +10,7 @@ public class Shop {
     public void setToy(Toy toy) {
         this.toy = toy;
     }
-    public Toy getClone() throws CloneNotSupportedException {
-        return (Toy) toy.clone();
-    }
+
+    public Toy createToy(){return toy;}
+
 }

@@ -5,6 +5,7 @@ public class Brightness {
     public Brightness(Phone phone) {
         this.phone = phone;
     }
+    public Brightness(){}
     public void increase(int percent){
         if(!phone.isOff){
             System.out.println("Потрібно включити телефон");

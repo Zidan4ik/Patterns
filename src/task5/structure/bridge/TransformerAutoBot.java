@@ -10,12 +10,12 @@ public class TransformerAutoBot implements Transformer {
 
     @Override
     public void fraction() {
-    this.fraction=Type.autobot;
+        this.fraction = Type.autobot;
     }
 
     @Override
     public void info() {
-        System.out.println("Трансформер відноситься до класу: "+fraction);
+        System.out.println("Трансформер відноситься до класу: " + fraction);
         position.position();
     }
 }

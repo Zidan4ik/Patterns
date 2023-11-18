@@ -7,6 +7,6 @@ public class Main {
 
         psy.workTime("Denys",2);
         psy.workTime("Mark",1);
-//        Psychologist psy2 = new Psychologist();
+
     }
 }
