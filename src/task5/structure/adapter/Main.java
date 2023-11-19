@@ -9,5 +9,7 @@ public class Main {
         AdapterShop storeOnn2 = new AdapterShop(storeOnn);
         service.processingProduct(storeOff);
         service.processingProduct(storeOnn2);
+
+//        service.processingProduct(storeOnn2);
     }
 }

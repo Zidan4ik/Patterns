@@ -3,7 +3,6 @@ package task5.creational.builder;
 public class Deception implements TransformerBuilder {
     private Transformer transformer = new Transformer();
 
-
     @Override
     public void buildColor(String color) {
         transformer.setColor(color);

@@ -24,6 +24,7 @@ public class Main {
         menu.addDish(menuMeat);
         menu.addDish(menuSalad);
         menu.addDish(menuSoup);
+        menu.addDish(menuSoup);
 
 
         menu.showInfo();

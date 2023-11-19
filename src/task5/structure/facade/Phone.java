@@ -22,7 +22,7 @@ public class Phone extends Brightness {
     }
     public void off(){
         System.out.println("телефон вимкнувся");
-        isOff=true;
+        isOff=false;
     }
 
 }
