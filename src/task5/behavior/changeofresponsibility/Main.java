@@ -1,6 +1,4 @@
-package task5.behavior;
-
-import java.sql.SQLOutput;
+package task5.behavior.changeofresponsibility;
 
 public class Main {
     public static void main(String[] args) {

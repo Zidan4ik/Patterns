@@ -1,6 +1,6 @@
-package task5.behavior;
+package task5.behavior.changeofresponsibility;
 
-public class NoMessage extends Tesla{
+public class NoMessage extends Tesla {
     public NoMessage(int speed) {
         super(speed);
     }

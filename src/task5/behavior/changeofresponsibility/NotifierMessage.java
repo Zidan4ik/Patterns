@@ -1,4 +1,4 @@
-package task5.behavior;
+package task5.behavior.changeofresponsibility;
 
 public class NotifierMessage extends Tesla {
     public NotifierMessage(int speed) {

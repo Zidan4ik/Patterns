@@ -1,6 +1,6 @@
-package task5.behavior;
+package task5.behavior.changeofresponsibility;
 
-public class SoundMessage extends Tesla{
+public class SoundMessage extends Tesla {
     public SoundMessage(int speed) {
         super(speed);
     }
