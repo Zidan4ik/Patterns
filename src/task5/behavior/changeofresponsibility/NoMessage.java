@@ -5,7 +5,7 @@ public class NoMessage extends Tesla {
         super(speed);
     }
     @Override
-    public void method(String message) {
+    public void messageDo(String message) {
         System.out.println("Дія транспорту: "+ message);
     }
 }

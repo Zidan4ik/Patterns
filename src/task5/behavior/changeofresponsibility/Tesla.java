@@ -13,15 +13,11 @@ public abstract class Tesla {
     }
     public void notifier(String message,int speed){
         if(speed>=this.speed){
-            method(message);
-        }else if(speed>=this.speed){
-            method(message);
-        }else if(speed>=this.speed){
-            method(message);
+            messageDo(message);
         }
         if(tesla!=null){
             tesla.notifier(message,speed);
         }
     }
-    public abstract void method(String message);
+    public abstract void messageDo(String message);
 }

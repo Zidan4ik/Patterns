@@ -5,7 +5,7 @@ public class SoundMessage extends Tesla {
         super(speed);
     }
     @Override
-    public void method(String message) {
+    public void messageDo(String message) {
         System.out.println("Звукове повідомлення: "+message);
     }
 }

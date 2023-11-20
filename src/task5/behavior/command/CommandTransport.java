@@ -1,5 +1,5 @@
 package task5.behavior.command;
 
-public interface Transport {
+public interface CommandTransport {
     void execute();
 }
