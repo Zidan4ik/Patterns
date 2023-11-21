@@ -1,4 +1,4 @@
-package task5.behavior.changeofresponsibility;
+package task5.behavior.change_of_responsibility;
 
 public abstract class Tesla {
     private int speed;
