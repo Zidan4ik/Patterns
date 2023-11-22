@@ -16,7 +16,6 @@ public class Main {
         chat.addToChat(denys);
         chat.addToChat(mainMechanic);
 
-        System.out.println("Патерн Mediator");
         System.out.println("Звичайні повідомлення: ");
         roma.sendMessage("Hello");
 
