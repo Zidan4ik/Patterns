@@ -9,6 +9,8 @@ public class Main {
 
         tracker.add(roma);
         tracker.add(doctor);
+
+        System.out.println("Патерн Observer");
         System.out.println("Повідомлення перше:");
         tracker.notifyPersons();
 
