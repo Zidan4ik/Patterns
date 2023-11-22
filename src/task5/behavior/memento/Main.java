@@ -5,6 +5,7 @@ public class Main {
         Plan plan = new Plan();
         Schedule schedule = new Schedule();
 
+        System.out.println("Патерн Memento");
         System.out.println("\bPlan on day:\n");
         System.out.println("plan 1:");
         plan.setPlan("working time","17:00 am");
