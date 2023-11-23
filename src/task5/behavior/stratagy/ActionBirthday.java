@@ -18,7 +18,7 @@ public class ActionBirthday implements Actions{
 
         if((person.getDate().getMonthValue() == month) && (person.getDate().getDayOfMonth() == day)){
             System.out.println("Сьогодні персональна акція для вас. " +
-                    "Оскільки у вас день народження отримуєте знижку 100% на більярд та один на ,ваш смак, безплатний напій, на барі");
+                    "Оскільки у вас день народження отримуєте знижку 100% на більярд та один безплатний напій на ваш смак, на барі");
             price*=0;
             System.out.println("Ціна за більярд: "+price);
         }else{
