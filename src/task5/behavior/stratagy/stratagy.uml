@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.behavior.stratagy</OriginalElement>
+  <nodes>
+    <node x="-72.0" y="64.0">task5.behavior.stratagy.ActionStudent</node>
+    <node x="233.0" y="138.0">task5.behavior.stratagy.Main</node>
+    <node x="89.0" y="64.0">task5.behavior.stratagy.ActionFriend</node>
+    <node x="239.0" y="64.0">task5.behavior.stratagy.ActionBirthday</node>
+    <node x="105.0" y="-15.0">task5.behavior.stratagy.Actions</node>
+    <node x="-72.0" y="138.0">task5.behavior.stratagy.BilliardClub</node>
+    <node x="94.0" y="138.0">task5.behavior.stratagy.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.behavior.stratagy.ActionBirthday" target="task5.behavior.stratagy.Actions" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="310.5" y="39.0" />
+      <point x="154.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.stratagy.ActionFriend" target="task5.behavior.stratagy.Actions" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.stratagy.ActionStudent" target="task5.behavior.stratagy.Actions" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-1.5" y="39.0" />
+      <point x="154.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="155.0" y="76.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

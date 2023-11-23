@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.behavior.iterator</OriginalElement>
+  <nodes>
+    <node x="-57.0" y="138.0">task5.behavior.iterator.Iterator</node>
+    <node x="-56.0" y="64.0">task5.behavior.iterator.Vacancies</node>
+    <node x="85.0" y="138.0">task5.behavior.iterator.Main</node>
+    <node x="-57.0" y="-15.0">task5.behavior.iterator.Collection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.behavior.iterator.Vacancies" target="task5.behavior.iterator.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="55.0" y="76.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.behavior.visitor</OriginalElement>
+  <nodes>
+    <node x="-66.0" y="64.0">task5.behavior.visitor.TestNotifier1</node>
+    <node x="85.0" y="64.0">task5.behavior.visitor.TestNotifier2</node>
+    <node x="-12.0" y="138.0">task5.behavior.visitor.Device</node>
+    <node x="-66.0" y="291.0">task5.behavior.visitor.Main</node>
+    <node x="26.0" y="-15.0">task5.behavior.visitor.Notifier</node>
+    <node x="-66.0" y="217.0">task5.behavior.visitor.Watch</node>
+    <node x="44.0" y="217.0">task5.behavior.visitor.Phone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.behavior.visitor.TestNotifier2" target="task5.behavior.visitor.Notifier" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="150.5" y="39.0" />
+      <point x="75.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.visitor.Phone" target="task5.behavior.visitor.Device" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="89.0" y="192.0" />
+      <point x="34.0" y="192.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.visitor.TestNotifier1" target="task5.behavior.visitor.Notifier" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-0.5" y="39.0" />
+      <point x="75.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.visitor.Watch" target="task5.behavior.visitor.Device" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-21.0" y="192.0" />
+      <point x="34.0" y="192.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="75.0" y="152.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

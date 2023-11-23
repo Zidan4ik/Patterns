@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.behavior.state</OriginalElement>
+  <nodes>
+    <node x="52.0" y="-15.0">task5.behavior.state.Color</node>
+    <node x="105.0" y="138.0">task5.behavior.state.Main</node>
+    <node x="-60.0" y="138.0">task5.behavior.state.TrafficLight</node>
+    <node x="-60.0" y="64.0">task5.behavior.state.Yellow</node>
+    <node x="51.0" y="64.0">task5.behavior.state.Green</node>
+    <node x="158.0" y="64.0">task5.behavior.state.Red</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.behavior.state.Yellow" target="task5.behavior.state.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-14.5" y="39.0" />
+      <point x="94.5" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.state.Red" target="task5.behavior.state.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="195.5" y="39.0" />
+      <point x="94.5" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.behavior.state.Green" target="task5.behavior.state.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="62.5" y="73.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
