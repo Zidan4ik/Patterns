@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.structure.decorate</OriginalElement>
+  <nodes>
+    <node x="-92.0" y="143.0">task5.structure.decorate.WarriorDecorator</node>
+    <node x="-92.0" y="217.0">task5.structure.decorate.Main</node>
+    <node x="95.0" y="-15.0">task5.structure.decorate.Transformer</node>
+    <node x="89.0" y="143.0">task5.structure.decorate.MedicDecorator</node>
+    <node x="-15.25" y="64.0">task5.structure.decorate.TransformerDecorate</node>
+    <node x="188.75" y="64.0">task5.structure.decorate.AutoBot</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.structure.decorate.MedicDecorator" target="task5.structure.decorate.TransformerDecorate" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="165.0" y="118.0" />
+      <point x="76.75" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.structure.decorate.TransformerDecorate" target="task5.structure.decorate.Transformer" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="76.75" y="39.0" />
+      <point x="158.5" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.structure.decorate.WarriorDecorator" target="task5.structure.decorate.TransformerDecorate" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-11.5" y="118.0" />
+      <point x="76.75" y="118.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task5.structure.decorate.AutoBot" target="task5.structure.decorate.Transformer" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="240.25" y="39.0" />
+      <point x="158.5" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="100.0" y="115.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
