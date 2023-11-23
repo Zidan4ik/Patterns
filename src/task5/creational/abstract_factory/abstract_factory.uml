@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.creational.abstract_factory</OriginalElement>
+  <nodes>
+    <node x="-197.0" y="281.0">task5.creational.abstract_factory.Main</node>
+    <node x="-197.0" y="133.0">task5.creational.abstract_factory.PersonDoctor</node>
+    <node x="-197.0" y="59.0">task5.creational.abstract_factory.standardmafia</node>
+    <node x="-197.0" y="207.0">task5.creational.abstract_factory.GameMafia</node>
+    <node x="-14.0" y="133.0">task5.creational.abstract_factory.PersonCitizen</node>
+    <node x="-197.0" y="-15.0">task5.creational.abstract_factory.universitymafia</node>
+    <node x="-30.0" y="207.0">task5.creational.abstract_factory.PersonDon</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="0.0" y="147.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

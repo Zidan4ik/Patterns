@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.creational.singleton</OriginalElement>
+  <nodes>
+    <node x="-65.0" y="59.0">task5.creational.singleton.Main</node>
+    <node x="-65.0" y="-15.0">task5.creational.singleton.Psychologist</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="0.0" y="36.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
