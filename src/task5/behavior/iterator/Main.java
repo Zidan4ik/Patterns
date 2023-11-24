@@ -12,7 +12,7 @@ public class Main {
         int index=0;
         while(iterator.hasNext()){
             index++;
-            System.out.println(index+" "+iterator.next());
+            System.out.println(index+"-"+iterator.next());
         }
     }
 }

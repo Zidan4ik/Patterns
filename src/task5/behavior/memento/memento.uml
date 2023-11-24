@@ -3,16 +3,21 @@
   <ID>JAVA</ID>
   <OriginalElement>task5.behavior.memento</OriginalElement>
   <nodes>
-    <node x="-71.0" y="-15.0">task5.behavior.memento.ProcessSaving</node>
-    <node x="-71.0" y="133.0">task5.behavior.memento.Main</node>
-    <node x="56.0" y="133.0">task5.behavior.memento.Plan</node>
-    <node x="-71.0" y="59.0">task5.behavior.memento.Schedule</node>
+    <node x="-71.0" y="318.0">task5.behavior.memento.ProcessSaving</node>
+    <node x="-71.0" y="-15.0">task5.behavior.memento.Plan</node>
+    <node x="-71.0" y="173.0">task5.behavior.memento.Schedule</node>
+    <node x="133.0" y="318.0">task5.behavior.memento.Main</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="19.0" y="62.5" />
+  <settings layout="Hierarchic" zoom="1.4547461368653423" showDependencies="false" x="117.5" y="211.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

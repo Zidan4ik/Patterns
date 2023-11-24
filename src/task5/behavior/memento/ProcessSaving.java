@@ -1,19 +1,17 @@
 package task5.behavior.memento;
 
 public class ProcessSaving {
-    private final String title;
-    private final String time;
+    private Plan plan;
 
-    public ProcessSaving(String title, String time) {
-        this.title = title;
-        this.time = time;
+    public ProcessSaving(Plan plan) {
+        this.plan = plan;
     }
 
-    public String getTitle() {
-        return title;
+    public Plan getPlan() {
+        return plan;
     }
 
-    public String getTime() {
-        return time;
+    public void setPlan(Plan plan) {
+        this.plan = plan;
     }
 }

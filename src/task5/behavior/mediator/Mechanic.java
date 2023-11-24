@@ -29,7 +29,7 @@ public class Mechanic implements Employee {
     public void sendMessage(Transport transport, boolean isRepaired) {
         if (isMainMechanic) {
             String message = "Механік(" + name + ") машина: " + transport.getTransport().getMark()
-                    + " та року: " + transport.getTransport().getYear();
+                    + " року " + transport.getTransport().getYear();
             System.out.print(message + " ");
             transport.isRepaired(isRepaired);
             mediator.sendMessage(message, this);

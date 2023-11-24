@@ -2,22 +2,22 @@ package task5.behavior.memento;
 
 public class Main {
     public static void main(String[] args) {
-        Plan plan = new Plan();
+        Plan plan;
         Schedule schedule = new Schedule();
 
         System.out.println("\bPlan on day:\n");
         System.out.println("plan 1:");
-        plan.setPlan("working time","17:00 am");
+        plan = new Plan("working time","12 am");
         System.out.println(plan);
         System.out.println("Process saving plan 1\n");
-        schedule.setSaving(plan.save());
 
         System.out.println("plan 2:");
-        plan.setPlan("lunch time","15:00 am");
+        plan = new Plan("lunch time","15:00 am");
         System.out.println(plan);
+        schedule.setSaving(plan.save());
 
         System.out.println("plan 3:");
-        plan.setPlan("walking time","20:00 am");
+        plan = new Plan("walking time","20:00 am");
         System.out.println(plan);
 
 

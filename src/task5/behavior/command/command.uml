@@ -3,45 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement>task5.behavior.command</OriginalElement>
   <nodes>
-    <node x="131.0" y="-15.0">task5.behavior.command.CommandTransport</node>
-    <node x="-90.0" y="64.0">task5.behavior.command.ChangeAutoPilot</node>
-    <node x="88.0" y="64.0">task5.behavior.command.CloseDoor</node>
-    <node x="102.0" y="138.0">task5.behavior.command.Tesla</node>
-    <node x="-90.0" y="138.0">task5.behavior.command.RemoteControl</node>
-    <node x="382.0" y="64.0">task5.behavior.command.OpenDoor</node>
-    <node x="229.0" y="138.0">task5.behavior.command.Main</node>
-    <node x="226.0" y="64.0">task5.behavior.command.ChangeDriver</node>
+    <node x="368.0" y="211.0">task5.behavior.command.Tesla</node>
+    <node x="165.0" y="-15.0">task5.behavior.command.CommandTransport</node>
+    <node x="-90.0" y="399.0">task5.behavior.command.Main</node>
+    <node x="-90.0" y="89.0">task5.behavior.command.OpenDoor</node>
+    <node x="439.0" y="89.0">task5.behavior.command.ChangeDriver</node>
+    <node x="-90.0" y="211.0">task5.behavior.command.RemoteControl</node>
+    <node x="274.0" y="89.0">task5.behavior.command.CloseDoor</node>
+    <node x="75.0" y="89.0">task5.behavior.command.ChangeAutoPilot</node>
   </nodes>
   <notes />
   <edges>
     <edge source="task5.behavior.command.OpenDoor" target="task5.behavior.command.CommandTransport" relationship="REALIZATION">
-      <point x="0.0" y="-14.5" />
-      <point x="441.0" y="39.0" />
-      <point x="220.5" y="39.0" />
-      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-38.5" />
+      <point x="-17.5" y="64.0" />
+      <point x="255.5" y="64.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="task5.behavior.command.ChangeDriver" target="task5.behavior.command.CommandTransport" relationship="REALIZATION">
-      <point x="0.0" y="-14.5" />
-      <point x="294.0" y="39.0" />
-      <point x="220.5" y="39.0" />
-      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-38.5" />
+      <point x="519.5" y="64.0" />
+      <point x="255.5" y="64.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="task5.behavior.command.ChangeAutoPilot" target="task5.behavior.command.CommandTransport" relationship="REALIZATION">
-      <point x="0.0" y="-14.5" />
-      <point x="-11.0" y="39.0" />
-      <point x="220.5" y="39.0" />
-      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-38.5" />
+      <point x="164.5" y="64.0" />
+      <point x="255.5" y="64.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="task5.behavior.command.CloseDoor" target="task5.behavior.command.CommandTransport" relationship="REALIZATION">
-      <point x="0.0" y="-14.5" />
-      <point x="147.0" y="39.0" />
-      <point x="220.5" y="39.0" />
-      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-38.5" />
+      <point x="346.5" y="64.0" />
+      <point x="255.5" y="64.0" />
+      <point x="0.0" y="27.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="202.0" y="78.0" />
+  <settings layout="Hierarchic" zoom="1.289628180039139" showDependencies="false" x="265.0" y="240.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

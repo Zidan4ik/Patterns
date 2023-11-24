@@ -3,19 +3,67 @@
   <ID>JAVA</ID>
   <OriginalElement>task5.creational.abstract_factory</OriginalElement>
   <nodes>
-    <node x="-197.0" y="281.0">task5.creational.abstract_factory.Main</node>
-    <node x="-197.0" y="133.0">task5.creational.abstract_factory.PersonDoctor</node>
-    <node x="-197.0" y="59.0">task5.creational.abstract_factory.standardmafia</node>
-    <node x="-197.0" y="207.0">task5.creational.abstract_factory.GameMafia</node>
-    <node x="-14.0" y="133.0">task5.creational.abstract_factory.PersonCitizen</node>
-    <node x="-197.0" y="-15.0">task5.creational.abstract_factory.universitymafia</node>
-    <node x="-30.0" y="207.0">task5.creational.abstract_factory.PersonDon</node>
+    <node x="245.49999999999994" y="89.0">task5.creational.abstract_factory.GameMafia</node>
+    <node x="106.0" y="-15.0">task5.creational.abstract_factory.PersonCitizen</node>
+    <node x="123.5" y="110.5">task5.creational.abstract_factory.standardmafia.Citizen</node>
+    <node x="76.05434782608694" y="259.0">task5.creational.abstract_factory.standardmafia.StandardGameMafia</node>
+    <node x="-54.00000000000003" y="-15.0">task5.creational.abstract_factory.PersonDoctor</node>
+    <node x="102.05434782608694" y="452.0">task5.creational.abstract_factory.Main</node>
+    <node x="-408.32018209408193" y="367.48254931714723">task5.creational.abstract_factory.universitymafia</node>
+    <node x="-186.5" y="110.5">task5.creational.abstract_factory.standardmafia.Don</node>
+    <node x="-197.0" y="-15.0">task5.creational.abstract_factory.PersonDon</node>
+    <node x="-35.00000000000003" y="110.5">task5.creational.abstract_factory.standardmafia.Doctor</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="0.0" y="147.5" />
-  <SelectedNodes />
-  <Categories />
+  <edges>
+    <edge source="task5.creational.abstract_factory.standardmafia.StandardGameMafia" target="task5.creational.abstract_factory.standardmafia.Doctor" relationship="CREATE">
+      <point x="-102.5" y="-0.0" />
+      <point x="15.999999999999972" y="330.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.StandardGameMafia" target="task5.creational.abstract_factory.standardmafia.Citizen" relationship="CREATE">
+      <point x="-4.054347826086939" y="-71.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.StandardGameMafia" target="task5.creational.abstract_factory.GameMafia" relationship="REALIZATION">
+      <point x="51.25" y="-71.5" />
+      <point x="229.80434782608694" y="239.0" />
+      <point x="348.0" y="239.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.Citizen" target="task5.creational.abstract_factory.PersonCitizen" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.StandardGameMafia" target="task5.creational.abstract_factory.standardmafia.Don" relationship="CREATE">
+      <point x="-102.5" y="15.0" />
+      <point x="-135.5" y="345.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.Doctor" target="task5.creational.abstract_factory.PersonDoctor" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.Main" target="task5.creational.abstract_factory.standardmafia.StandardGameMafia" relationship="CREATE">
+      <point x="-0.0" y="-38.5" />
+      <point x="-0.0" y="71.5" />
+    </edge>
+    <edge source="task5.creational.abstract_factory.standardmafia.Don" target="task5.creational.abstract_factory.PersonDon" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0410742496050553" showDependencies="true" x="137.0" y="304.3027314112291" />
+  <SelectedNodes>
+    <node>task5.creational.abstract_factory.universitymafia</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

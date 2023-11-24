@@ -6,6 +6,7 @@ public class Person {
     private String name;
     private int age;
     private LocalDate date;
+    private int countFriends;
 
     public Person(String name, int age, LocalDate date) {
         this.name = name;
@@ -23,5 +24,13 @@ public class Person {
 
     public LocalDate getDate() {
         return date;
+    }
+
+    public int getCountFriends() {
+        return countFriends;
+    }
+
+    public void setCountFriends(int countFriends) {
+        this.countFriends = countFriends;
     }
 }

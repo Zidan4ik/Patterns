@@ -3,12 +3,12 @@
   <ID>JAVA</ID>
   <OriginalElement>task5.behavior.observer</OriginalElement>
   <nodes>
-    <node x="-69.0" y="291.0">task5.behavior.observer.Main</node>
-    <node x="84.0" y="138.0">task5.behavior.observer.Health</node>
     <node x="-69.0" y="138.0">task5.behavior.observer.Observer</node>
     <node x="-62.0" y="217.0">task5.behavior.observer.Person</node>
-    <node x="-69.0" y="64.0">task5.behavior.observer.FitnessTracker</node>
     <node x="-56.0" y="-15.0">task5.behavior.observer.Observed</node>
+    <node x="-69.0" y="64.0">task5.behavior.observer.FitnessTracker</node>
+    <node x="-69.0" y="291.0">task5.behavior.observer.Main</node>
+    <node x="84.0" y="138.0">task5.behavior.observer.Health</node>
   </nodes>
   <notes />
   <edges>
@@ -21,7 +21,7 @@
       <point x="0.0" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="53.0" y="152.5" />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="444.5" y="247.5" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>

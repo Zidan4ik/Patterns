@@ -5,8 +5,8 @@ public class Green implements Color{
     @Override
     public void act(TrafficLight traffic) {
         if(count == 8){
-            traffic.setColor(new Red());
             count=0;
+            traffic.setColor(new Red());
             System.out.println();
         }else{
         count++;
