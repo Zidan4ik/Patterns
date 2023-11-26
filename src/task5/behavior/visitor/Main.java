@@ -8,7 +8,7 @@ public class Main {
         phone.notifierMessage(new TestNotifier1());
         System.out.println();
         watch.notifierMessage(new TestNotifier1());
-        System.out.println();
+        System.out.println("---------------");
 
         phone.notifierMessage(new TestNotifier2());
         System.out.println();

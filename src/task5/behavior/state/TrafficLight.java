@@ -12,11 +12,7 @@ public class TrafficLight {
     }
 
     public void blinkingColor() {
-        if (color instanceof Green) {
-            color.act(this);
-        }else if(color instanceof Yellow){
-            color.act(this);
-        }else if(color instanceof Red){
+        if (color instanceof Color) {
             color.act(this);
         }
     }

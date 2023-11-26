@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         BilliardClub club = new BilliardClub();
         Person roma = new Person("Roma",25, LocalDate.of(2003,12,28));
-        Person masha = new Person("Masha",19,LocalDate.of(2004,11,23));
+        Person masha = new Person("Masha",19,LocalDate.of(2004,11,25));
 
         System.out.println("Патерн Strategy");
 

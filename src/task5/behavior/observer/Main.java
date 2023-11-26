@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Observed tracker = new FitnessTracker();
         Health healthRoman = new Health(60,0,0);
-        Person roma = new Person("roma",healthRoman);
+
+        Observer roma = new Person("roma",healthRoman);
         Observer doctor = new Person("doctor",healthRoman);
 
         tracker.add(roma);

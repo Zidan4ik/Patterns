@@ -2,7 +2,6 @@ package task5.behavior.mediator;
 
 public class Mechanic implements Employee {
     private Mediator mediator;
-    private Transport transport;
     private String name;
     private boolean isMainMechanic;
 
